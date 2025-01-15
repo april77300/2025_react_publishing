@@ -1,0 +1,32 @@
+.kakao {
+  background-color: #fee500;
+  border: none;
+  border-radius: 4px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.naver {
+  background-color: #09aa5c;
+  border: none;
+  border-radius: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 130px;
+  padding-right: 130px;
+  color: white;
+  font-weight: bold;
+}
+
+.appdownload {
+  background-color: #fff2ec;
+  border: none;
+  color: #e84500;
+  border-radius: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
