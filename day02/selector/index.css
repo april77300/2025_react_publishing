@@ -1,0 +1,26 @@
+button {
+  color: blueviolet;
+  font-size: 20px;
+}
+
+h1 {
+  color: grey;
+}
+
+ol > li {
+  color: brown;
+}
+
+div > p {
+  color: orange;
+}
+
+div > p > span {
+  color: red;
+  font-weight: bold;
+}
+
+div > p > h1 {
+  color: red;
+  font-weight: bold;
+}

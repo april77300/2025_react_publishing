@@ -1,0 +1,22 @@
+.kakao {
+  background-color: yellow;
+  padding: 10px 100px 10px 100px;
+  color: white;
+  border: 1px solid yellow;
+  border-radius: 4px;
+}
+
+.kakao > i {
+  margin-right: 5px;
+}
+
+.apple {
+  background-color: white;
+  padding: 5px 10px 5px 10px;
+  color: black;
+}
+
+.apple > i {
+  margin-right: 5px;
+  font-size: 14px;
+}

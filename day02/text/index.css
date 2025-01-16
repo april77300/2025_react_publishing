@@ -1,0 +1,45 @@
+.logo {
+  color: skyblue;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 16px;
+  margin-top: 200px;
+}
+
+.title {
+  color: black;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.sub {
+  color: rgb(197, 197, 197);
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 15px;
+  margin-top: 30px;
+}
+
+.apple {
+  background-color: white;
+  border: 1px solid bbbbbb;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  color: #262b41;
+  font-weight: bold;
+}
+
+.google {
+  background-color: #262b41;
+  color: white;
+  border: 1px solid #262b41;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+}
+
+.buttons {
+  text-align: center;
+}

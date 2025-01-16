@@ -1,0 +1,22 @@
+.login {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.login2 {
+  background-color: #cdcdcd;
+  color: grey;
+  border: none;
+  border-radius: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-weight: bold;
+}
