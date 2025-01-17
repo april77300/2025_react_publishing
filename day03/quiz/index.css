@@ -1,0 +1,31 @@
+.box1 {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  background-image: url("https://images.unsplash.com/photo-1594022688886-dc29f495cf65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxNTgwfDB8MXxzZWFyY2h8Mzd8fGxpZ2h0fGVufDB8fHx8MTczNzA1MDY5OXww&ixlib=rb-4.0.3&q=80&w=400");
+  background-size: cover;
+  color: azure;
+  margin-right: 4px;
+  border-radius: 10px;
+  border: none;
+  padding-top: 200px;
+  padding-left: 50px;
+}
+
+.bax1 > button {
+  border: 1px solid orangered;
+  border-radius: 20px;
+  background-color: transparent;
+  color: orangered;
+  font-weight: 700;
+  padding: 10px 15px 10px 15px;
+}
+
+.box1 > h2 {
+  margin: 0;
+  color: white;
+}
+
+.bax1 > span {
+  color: grey;
+}

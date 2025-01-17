@@ -1,0 +1,35 @@
+.box1 {
+  display: inline-block;
+  border: 1px solid black;
+  width: 300px;
+  height: 500px;
+  background-image: url("https://pixabay.com/get/ge259762d1e1f8d39719367f5b0d4b4e201fbd5bdbe010ca57624cc112dbe3a3cb9d6fab191402a68cec49d3171697b262eac7ba76e4dc0040af6868fdad81378_640.jpg");
+  background-size: cover;
+  color: azure;
+  margin-right: 4px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 20px 0px 20px;
+}
+
+.bax1 > h6 {
+  color: white;
+  font-size: 10px;
+  margin: 0px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.bax1 > h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0px;
+  margin-top: 10px;
+}
+
+.bax1 > h5 {
+  color: white;
+  font-size: 10px;
+  margin: 0px;
+}
