@@ -1,0 +1,110 @@
+.business > .contents{
+    width: 100%;
+    max-width:1040px ;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 100px 0;
+
+   
+}
+
+.business > .contents > h6 {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.business > .contents > h2 {
+    color: #1f1f1f;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.business > .contents > article {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+
+ 
+}
+
+.business > .contents > article > .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.business > .contents > article > .card > .album{
+    width: 100%;
+    height:500px;
+    overflow: hidden;
+}
+.business > .contents > article > .card > .album > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all 0.5s;
+
+}
+
+.business > .contents > article > .card > .album > img:hover{
+    transform:scale(0.5) ;
+}
+
+.business > .contents > article > .card > p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.business > .contents > article > .card > span {
+    color:#757575;
+    font-size: 18px;
+}
+
+.business > .contents > div {
+    text-align: center;
+
+}
+
+
+.business > .contents > div > .more {
+    background-color: #fff2ea;
+    width: fit-content;
+    padding: 20px 100px;
+    color: #ff5160;
+}
+.business > .contents > div > .more:hover {
+    background-color: blue;
+}
+
+@media screen and (max-width:480px) {
+    .business > .contents {
+        max-width: 340px;
+      
+
+    }
+
+    .business > .contents > h6{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .news > .contents > h2 {
+        font-size: 32px;
+    }
+    .business > .contents > article{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .business > .contents > article > .card > .album{
+        height: 340px;
+        border-radius: 10px;
+    }
+    .business > .contents > article > .card > p {
+        font-size: 18px;
+
+    }
+}

@@ -1,0 +1,42 @@
+.box{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    
+    position: relative;
+}
+
+.title::before{
+    content: " ";
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(30deg);
+    right: -20px;
+    top: 4px;
+    transition: all 0.5s;
+
+}
+
+.title::after{
+    content: " ";
+    width: 5px;
+    height: 25px;
+    background-color: red;
+    position: absolute;
+    transform: rotate(-30deg);
+    left: -20px;
+    top: 4px;
+    transition: all 0.5s;
+
+}
+
+.title:hover::before, .title:hover::after{
+    transform: rotate(0deg);
+}

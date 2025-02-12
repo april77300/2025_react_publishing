@@ -1,0 +1,66 @@
+.news > .contents{
+    width: 100%;
+    max-width:1040px ;
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 100px 0;
+
+   
+}
+
+.news> .contents > h6 {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.news > .contents > h2 {
+    color: #1f1f1f;
+    font-size: 48px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.news > .contents > article {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.news > .contents > article > .newsCard{
+    padding: 16px;
+
+}
+.news > .contents > article > .newsCard:hover{
+    background-color: #f5f5f5;
+}
+
+.news > .contents > article > .newsCard > h5 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.news > .contents > article > .newsCard > time {
+    color: #757575;
+    font-size: 18px;
+}
+.news > .contents > article > .more {
+    background-color: #fff2ea;
+}
+
+@media screen and (max-width:480px) {
+    .news > .contents {
+        max-width: 340px;
+    }
+    .news > .contents > h2 {
+        font-size: 32px;
+    }
+    .news > .contents > article > .newsCard > h5 {
+        font-size: 18px;
+        line-height:1.2 ;
+    }
+    .news > .contents > article > .newsCard > time{
+        font-size: 14px;
+    }
+}
+

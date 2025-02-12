@@ -1,0 +1,41 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+.box{
+    width: 100%;
+    height: 20%;
+}
+.red {
+  
+   background-color: red;
+
+}
+
+.orange {
+  
+    background-color: plum;
+ 
+ }
+ 
+ .blue {
+   
+    background-color: blue;
+ 
+ }
+ 
+ .green {
+    
+    background-color: skyblue;
+ 
+ }
+ 
+ 
+ .yellow {
+  
+    background-color: mediumspringgreen;
+ 
+ }
+ 

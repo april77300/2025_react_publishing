@@ -1,0 +1,31 @@
+.greenbox{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: green;
+}
+
+.bluebox{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: blue;
+}
+
+.orangebox{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: orange;
+}
+
+.redbox{
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    background-color: red;
+}
+
+
+
+

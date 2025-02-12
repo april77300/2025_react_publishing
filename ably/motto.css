@@ -1,0 +1,36 @@
+.motto {
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    padding: 100px 0;
+}
+.motto > .contents {
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+.motto > .contents > h3 {
+    color: gray;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.motto > .contents > h3 > strong {
+    color: black;
+}
+
+@media screen and (max-width:480px) {
+
+    .motto > .contents{
+        max-width: 340px;
+    }
+ 
+    .motto > .contents > h3 {
+        font-size: 16px;
+    }
+ } 

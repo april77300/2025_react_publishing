@@ -1,0 +1,10 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: rgb(131,58,180);
+    /* background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    /* background: linear-gradient(to right, pink, green); */
+    /* background: rgb(131,58,180); */
+    /* background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%); */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}

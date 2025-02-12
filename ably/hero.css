@@ -1,0 +1,50 @@
+@font-face {
+    font-family: '양진체';
+    src: url('https://fastly.jsdelivr.net/gh/supernovice-lab/font@0.9/yangjin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "양진체";
+}
+
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/07/08/56/woman-1721065_1280.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero > .contents{
+    width: 100%;
+    max-width: 1040px;
+    margin: 0 auto;
+    border: 1px solid red;
+    
+
+}
+
+.hero > .contents > h2 {
+    color: white;
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+@media screen and (max-width:480px) {
+    .hero {
+        background-position:center ;
+    }
+    .hero > .contents{
+        max-width: 340px;
+    }
+ 
+    .hero > .contents > h2 {
+        font-size: 28px;
+    }
+ } 

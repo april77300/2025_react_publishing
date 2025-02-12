@@ -1,0 +1,69 @@
+ /* *{  
+    font-family: "Orbit", serif;
+} */
+
+@font-face {
+    font-family: 'Ownglyph_wiseelist-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/Ownglyph_wiseelist-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: 'Ownglyph_wiseelist-Rg'; 
+}
+
+
+.card{
+    display: inline-block;
+    margin-right: 10px;
+    width: 300px;
+    height: 450px;
+    background-color: #EEEEF0;
+    padding: 50px 30px 30px 30px
+   
+}
+
+.album{
+    width: 100%;
+    height: 80%;
+    transition: all 0.5s;
+   
+}
+
+.album:hover{
+    transform: scale(1.1);
+}
+
+.album > img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+   
+    
+}
+
+
+
+.info {
+   
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttons > button{
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    
+}
+
